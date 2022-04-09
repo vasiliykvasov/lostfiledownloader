@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Скрипт Lost File Downloader предназначен для скачивания списка файлов любого формата с удаленного сервера на локальный сервер с сохранением структуры файлов.
+# Скрипт Lost Files Downloader предназначен для скачивания списка файлов любого формата с удаленного сервера на локальный сервер с сохранением структуры файлов.
 #
 # Требования к списку файлов
 # 1. Список файлов для скачивания должен быть в отдельном txt файле.
@@ -14,11 +14,11 @@
 # 1. Перед началом работы перейти в директорию, в которую будут скачиваться файлы с удаленного сервера.
 # 2. В этой же директории разместить txt файл со списком файлов.
 # 3. Скачать скрипт на сервер.
-# git clone https://github.com/vasiliykvasov/lostfiledownloader.git
+# git clone https://github.com/vasiliykvasov/lostfilesdownloader.git
 # 4. Сделать скрипт исполняемым.
-# chmod u+x lostfiledownloader/lostfiledownloader.sh
+# chmod u+x lostfilesdownloader/lostfilesdownloader.sh
 # 5. Запустить скрипт.
-# lostfiledownloader/lostfiledownloader.sh
+# lostfilesdownloader/lostfilesdownloader.sh
 #
 # После запуска скрипта нужно ввести:
 # - протокол и адрес удаленного сервера (https://example.com);
@@ -37,9 +37,9 @@
 # Скрипт выводит уведомление о каждом действии.
 # При успешном создании файла выводится уведомление Success.
 # Если по какой-то причине создать директорию или файл не удалось, выводится уведомление Error.
-# Все уведомления отображаются как в терминале и дублируются в файл логов lostfiledownloader.log в рабочей директории.
+# Все уведомления отображаются как в терминале и дублируются в файл логов lostfilesdownloader.log в рабочей директории.
 
-LOGFILE=lostfiledownloader.log
+LOGFILE=lostfilesdownloader.log
 date +%d-%m-%Y\ %H:%M:%S >> $LOGFILE
 echo "Logfile: $LOGFILE"
 echo "Enter protocol and address of the remote server (https://example.com)"
