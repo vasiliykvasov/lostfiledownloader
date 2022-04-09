@@ -15,7 +15,11 @@
 ## Установка и запуск
 Скрипт нужно скачать на сервер.
 
-`wget https://github.com/vasiliykvasov/lostfiledownloader/edit/main/lostfiledownloader.sh`
+`git clone https://github.com/vasiliykvasov/lostfiledownloader/edit/main/lostfiledownloader.sh`
+
+И сделать исполняемым.
+
+`chmod u+x lostfiledownloader.sh`
 
 Перед запуском скрипта нужно перейти в директорию, в которую будут скачиваться файлы с удаленного сервера.
 
