@@ -19,7 +19,7 @@
 
 И сделать исполняемым.
 
-`chmod u+x lostfiledownloader.sh`
+`chmod u+x lostfiledownloader/lostfiledownloader.sh`
 
 Перед запуском скрипта нужно перейти в директорию, в которую будут скачиваться файлы с удаленного сервера.
 
