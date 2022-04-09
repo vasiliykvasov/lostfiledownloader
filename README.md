@@ -15,7 +15,7 @@
 ## Установка и запуск
 Скрипт нужно скачать на сервер.
 
-`git clone https://github.com/vasiliykvasov/lostfiledownloader/edit/main/lostfiledownloader.sh`
+`git clone https://github.com/vasiliykvasov/lostfiledownloader.git`
 
 И сделать исполняемым.
 
